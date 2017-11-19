@@ -27,7 +27,6 @@ public class Gui extends JFrame implements ActionListener
     //Veränderbar
     public int framewidth = 300, framehight = 200;
     String title = "Volumen";
-    public boolean ja = true, nein = false;
 
     public Gui()
     {
