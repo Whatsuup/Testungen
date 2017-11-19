@@ -23,7 +23,7 @@ public class SystemIn
                 System.out.println("Ihr neues Passwort: "+ausgabe);
                 ausgabe = passwort;
                 System.out.println("Neuanmeldung erfolgt");
-
+                //TODO needed XML
                 //reload
                 new SystemIn();
             }
