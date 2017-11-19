@@ -17,8 +17,8 @@ public class Main{
         System.out.println("- Geben sie 'Gui' ein um das Gui zu öffnen");
         System.out.println("- Geben sie 'Game' ein um ein Spiel zu spielen");
         System.out.println("- Geben sie 'Passwort' ein um zu den Passwörtern zu kommen");
-        String firstScan = scanner.nextLine();
 
+        String firstScan = scanner.nextLine();
         if (firstScan.equals("Volumen"))new Volumen();
         if (firstScan.equals("Alex"))new Function();
         if (firstScan.equals("Gui"))new Gui();
