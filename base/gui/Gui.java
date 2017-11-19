@@ -37,7 +37,7 @@ public class Gui extends JFrame implements ActionListener
         jf1.setVisible(true);
         jf1.setSize(framewidth, framehight);
         jf1.setLocationRelativeTo(null);
-        jf1.setResizable(false);
+        jf1.setResizable(true); //setResizable(false) macht das Fenster auf Linux SEHR klein
         jf1.setTitle(title);
         jf1.getContentPane().setLayout(null);
 
